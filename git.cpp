@@ -28,6 +28,7 @@ void resizeUP_vector(vector* mas, unsigned int size) {
     for (unsigned int i = 0; i < mas->size; ++i) {
         mas->array[i] = tmp[i];
     }
+    mas->size += 1;
 }
 int main()
 {
